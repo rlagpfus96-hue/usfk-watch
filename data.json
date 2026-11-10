@@ -1,6 +1,28 @@
 {
- "updatedAt": "2026-11-08",
+ "updatedAt": "2026-11-10",
  "reports": [
+  {
+   "checkedAt": "08:44",
+   "date": "2026-11-10",
+   "detail": "최근 48시간 새 감축 보도 없음 · 한미 간 공식 논의 없음 · 미 의회 감축 제한 유지",
+   "items": [],
+   "level": "calm",
+   "troops": 28500,
+   "usMedia": [],
+   "verdict": "철수 결정 없음",
+   "id": "2026-11-10"
+  },
+  {
+   "checkedAt": "08:41",
+   "date": "2026-11-09",
+   "detail": "최근 48시간 새 감축 보도 없음 · 한미 간 공식 논의 없음 · 미 의회 감축 제한 유지",
+   "items": [],
+   "level": "calm",
+   "troops": 28500,
+   "usMedia": [],
+   "verdict": "철수 결정 없음",
+   "id": "2026-11-09"
+  },
   {
    "checkedAt": "08:42",
    "date": "2026-11-08",
@@ -135,7 +157,7 @@
    "troops": 28500,
    "troopsLabel": "명 · 공식",
    "unit": "주한미군 (USFK)",
-   "updatedAt": "2026-11-08",
+   "updatedAt": "2026-11-10",
    "url": "https://www.koreajoongangdaily.com/korea/us-house-passes-defense-bill-with-stronger-language-on-maintaining-troops-in-korea/12787511",
    "id": "us"
   },
@@ -147,7 +169,7 @@
    "troops": 12,
    "troopsLabel": "명",
    "unit": "유엔군사령부·군사정전위원회",
-   "updatedAt": "2026-11-08",
+   "updatedAt": "2026-11-10",
    "url": "https://nzdf.mil.nz/nzdf/new-operation/un-military-armistice-commission",
    "id": "nz"
   },
@@ -159,7 +181,7 @@
    "troops": 5,
    "troopsLabel": "명",
    "unit": "중립국감독위원회 (판문점)",
-   "updatedAt": "2026-11-08",
+   "updatedAt": "2026-11-10",
    "url": "https://en.wikipedia.org/wiki/Neutral_Nations_Supervisory_Commission",
    "id": "ch"
   },
@@ -171,7 +193,7 @@
    "troops": 5,
    "troopsLabel": "명",
    "unit": "중립국감독위원회 (판문점)",
-   "updatedAt": "2026-11-08",
+   "updatedAt": "2026-11-10",
    "url": "https://en.wikipedia.org/wiki/Neutral_Nations_Supervisory_Commission",
    "id": "se"
   },
@@ -183,7 +205,7 @@
    "troops": null,
    "troopsLabel": "소수 · 수치 비공개",
    "unit": "호주·영국·캐나다·프랑스 등",
-   "updatedAt": "2026-11-08",
+   "updatedAt": "2026-11-10",
    "url": "https://www.unc.mil/History/Post-1953-Evolution-of-UNC",
    "id": "unc-others"
   }
@@ -206,7 +228,7 @@
    "id": "n4"
   },
   {
-   "body": "긴급한 상황에서는 재난문자와 정부 발표를 먼저 확인하세요. 대피소는 ‘안전디딘돌’ 앱에서 찾을 수 있어요.",
+   "body": "긴급한 상황에서는 재난문자와 정부 발표를 먼저 확인하세요. 대피소는 ‘안전디딤돌’ 앱에서 찾을 수 있어요.",
    "date": "2026-11-04",
    "order": 3,
    "tag": "참고",
