@@ -141,8 +141,12 @@ h2 small{font-family:var(--f-mono);font-weight:500;font-size:11px;color:var(--mu
 .kitpick{margin-top:8px;padding:14px;border:1px solid var(--line);display:flex;flex-direction:column;gap:4px}
 .kp-label{font-family:var(--f-mono);font-size:10.5px;font-weight:700;letter-spacing:.12em;color:var(--muted)}
 .kitpick b{font-size:15px;font-weight:800}
+.kp-items{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:6px}
+.kp-item{display:flex;flex-direction:column;gap:4px;padding:12px;background:var(--soft);min-width:0}
+.kp-item .kp-btn{margin-top:auto}
+@media (max-width:420px){.kp-items{grid-template-columns:1fr}}
 .kp-note{font-size:13px;color:var(--muted)}
-.kp-btn{align-self:flex-start;margin-top:6px;font-size:13.5px;font-weight:800;padding:9px 14px;background:var(--fg);color:var(--bg);text-decoration:none}
+.kp-btn{align-self:flex-start;margin-top:8px;font-size:13.5px;font-weight:800;padding:9px 14px;background:var(--fg);color:var(--bg);text-decoration:none}
 .kp-btn[aria-disabled="true"]{background:var(--soft);color:var(--muted);cursor:default}
 .disclose{font-size:11.5px;color:var(--muted);margin-top:6px}
 .monthly{grid-column:1/-1;display:flex;flex-direction:column;gap:2px;padding:12px 14px;border:2px solid var(--rule)}
@@ -290,10 +294,19 @@ h2 small{font-family:var(--f-mono);font-weight:500;font-size:11px;color:var(--mu
         </ul>
         <p class="tip">유통기한을 가끔 확인해서 바꿔 주세요.</p>
         <div class="kitpick">
-          <span class="kp-label">한 번에 준비하기</span>
-          <b>아이템픽 19종 생존가방 키트</b>
-          <span class="kp-note">배낭에 구급용품·라디오·우비·로프·호루라기 등이 들어 있는 도구 위주 구성이에요. 물과 식량은 따로 챙겨 주세요.</span>
-          <a class="kp-btn" id="kitHref" href="#" target="_blank" rel="noopener sponsored" aria-disabled="true">쿠팡에서 보기</a>
+          <span class="kp-label">미리 쟁여두기</span>
+          <div class="kp-items">
+            <div class="kp-item">
+              <b>참치캔</b>
+              <span class="kp-note">비상식량 국룰이에요. 따기만 하면 한 끼라 불 없어도 괜찮고, 유통기한이 길어서 찬장에 넣어두고 잊어도 돼요.</span>
+              <a class="kp-btn" href="https://link.coupang.com/a/iyPGGXsKVo" target="_blank" rel="noopener sponsored">쿠팡에서 보기</a>
+            </div>
+            <div class="kp-item">
+              <b>생존배낭</b>
+              <span class="kp-note">현관에 하나 걸어두면 마음이 좀 편해져요. 받으면 안에 뭐 들었는지 한 번은 열어보고, 물이랑 상비약은 따로 채워 주세요.</span>
+              <a class="kp-btn" href="https://link.coupang.com/a/iyPLJ9f7TM" target="_blank" rel="noopener sponsored">쿠팡에서 보기</a>
+            </div>
+          </div>
           <span class="disclose">이 링크는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</span>
         </div>
       </div>
@@ -350,11 +363,7 @@ h2 small{font-family:var(--f-mono);font-weight:500;font-size:11px;color:var(--mu
   /* 결제 링크: 토스페이먼츠·카카오페이 등에서 받은 결제 링크(https)를 넣으면 버튼이 그 페이지로 연결됩니다. */
   const PAY_LINKS = { once: "" /* 후원 링크 */, month: "" /* 월 5,000원 구독 링크 */ };
   /* 쿠팡 파트너스 링크: 받은 링크(https://link.coupang.com/...)를 아래 따옴표 안에 넣으면 버튼이 연결돼요. */
-  const KIT_LINK = "https://link.coupang.com/a/in4YZLjh80";
-  (function(){ const a=document.getElementById("kitHref");
-    if(/^https:\/\//.test(KIT_LINK)){ a.href=KIT_LINK; a.removeAttribute("aria-disabled"); }
-    else { a.textContent="링크 연결 전 (예시)"; a.removeAttribute("href"); }
-  })();
+
 
   const LV={calm:"변화 없음",watch:"주목",action:"철수 발표"};
   const LVN={calm:"1단계 · 변화 없음",watch:"2단계 · 주목",action:"3단계 · 철수 발표"};
