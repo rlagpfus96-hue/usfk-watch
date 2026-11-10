@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="대한민국에 주둔한 외국 군대의 변화를 매일 아침 미국·한국 언론과 정부 발표로 확인해 정리합니다. 주한미군 감축·철수 소식, 나라별 병력, 비상시 대비 안내.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="주한 외국군 철수 경보">
+<meta property="og:description" content="소문 말고 출처 있는 사실만. 주한미군 감축·철수 동향을 매일 아침 정리합니다.">
+<meta name="theme-color" content="#0e2341">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23fff'/%3E%3Cpath d='M16 8a8 8 0 0 1 0 16a4 4 0 0 1 0-8a4 4 0 0 0 0-8z' fill='%230047a0'/%3E%3Cpath d='M16 8a8 8 0 0 0 0 16a4 4 0 0 0 0-8a4 4 0 0 1 0-8z' fill='%23cd2e3a'/%3E%3C/svg%3E">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>주한 외국군 철수 경보</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@700;900&family=Gothic+A1:wght@400;500;700;800&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Layout: national bulletin — flat white sheet, navy rules between sections, serif headlines, navy situation board up top */
+:root{
+  --bg:#ffffff; --soft:#f1f3f6; --fg:#0f1a2c; --muted:#5a6578; --line:#d7dce4; --rule:#0e2341;
+  --calm:#1d6b45; --calm-bg:#e3f0e8; --watch:#9a5b00; --watch-bg:#f8ecd3; --act:#b8202b; --act-bg:#f9e0e1;
+  --accent:#cd2e3a; --tg-red:#cd2e3a; --tg-blue:#0047a0; --link:#0047a0;
+  --navy:#0e2341; --navy-fg:#f4f6fa; --navy-muted:#a9b6cc; --navy-line:#25395b; --on-lv:#ffffff;
+  --f-display:"Noto Serif KR","Nanum Myeongjo",serif;
+  --f-body:"Gothic A1",-apple-system,"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0a111d; --soft:#121b2b; --fg:#e9edf3; --muted:#98a4b7; --line:#223047; --rule:#c4cede;
+  --calm:#6fd39c; --calm-bg:#132a1f; --watch:#efb453; --watch-bg:#33270f; --act:#ff7a72; --act-bg:#3a1618;
+  --accent:#ff6b72; --link:#8db4ff;
+  --navy:#0e1d36; --navy-fg:#f4f6fa; --navy-muted:#9fb0c9; --navy-line:#24395c; --on-lv:#0a111d;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0a111d; --soft:#121b2b; --fg:#e9edf3; --muted:#98a4b7; --line:#223047; --rule:#c4cede;
+  --calm:#6fd39c; --calm-bg:#132a1f; --watch:#efb453; --watch-bg:#33270f; --act:#ff7a72; --act-bg:#3a1618;
+  --accent:#ff6b72; --link:#8db4ff;
+  --navy:#0e1d36; --navy-fg:#f4f6fa; --navy-muted:#9fb0c9; --navy-line:#24395c; --on-lv:#0a111d;
+  color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.65;-webkit-font-smoothing:antialiased}
+.wrap{max-width:680px;margin:0 auto;padding-block:18px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:34px}
+
+header{display:flex;justify-content:space-between;align-items:center;gap:10px 14px;flex-wrap:wrap;padding-bottom:14px;border-bottom:3px double var(--rule)}
+.brand{display:flex;align-items:center;gap:12px}
+.flag{width:39px;height:26px;flex:0 0 auto;box-shadow:0 0 0 1px var(--line);display:block}
+h1{font-family:var(--f-display);font-weight:900;font-size:23px;margin:0;letter-spacing:-.01em;line-height:1.2}
+.stamp{display:inline-flex;align-items:center;gap:8px;font-family:var(--f-mono);font-size:11.5px;color:var(--muted);letter-spacing:.02em}
+.beacon{width:7px;height:7px;border-radius:50%;background:var(--accent);animation:ping 2s infinite}
+@keyframes ping{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--accent) 55%,transparent)}80%,100%{box-shadow:0 0 0 9px transparent}}
+@media (prefers-reduced-motion:reduce){.beacon{animation:none}}
+.intro{margin:-22px 0 0;font-size:15px;color:var(--muted)}
+
+h2{font-family:var(--f-display);font-weight:900;font-size:19px;letter-spacing:-.01em;color:var(--fg);margin:0 0 4px;padding-top:12px;border-top:2px solid var(--rule);display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+h2 small{font-family:var(--f-mono);font-weight:500;font-size:11px;color:var(--muted);letter-spacing:.04em}
+
+/* notice */
+.notice{background:var(--soft);padding:14px 16px;display:flex;flex-direction:column;gap:10px}
+.notice .hd{display:flex;align-items:center;gap:10px;font-size:13px;font-weight:800;letter-spacing:.04em}
+.notice .hd i{font-style:normal;font-family:var(--f-mono);font-size:10.5px;font-weight:700;letter-spacing:.12em;padding:2px 7px;background:var(--fg);color:var(--bg)}
+.notice ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.notice li{display:grid;grid-template-columns:44px minmax(0,1fr);gap:10px;font-size:14px;line-height:1.55;padding:8px 0;border-top:1px solid var(--line)}
+.notice li:first-child{border-top:0;padding-top:0}
+.notice li .d{font-family:var(--f-mono);font-size:11px;color:var(--muted);padding-top:2px;white-space:nowrap}
+.notice li b{font-weight:800}
+
+/* situation board */
+.board{position:relative;background:var(--navy);color:var(--navy-fg);display:flex;flex-direction:column}
+.board::before{content:"";display:block;height:5px;background:linear-gradient(90deg,var(--tg-red) 0 50%,var(--tg-blue) 50% 100%)}
+.board-hd{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:14px 18px 0;font-family:var(--f-mono);font-size:10.5px;letter-spacing:.16em;color:var(--navy-muted)}
+.board-main{padding:12px 18px 18px;display:flex;flex-direction:column;gap:6px}
+.lv{align-self:flex-start;font-size:12px;font-weight:800;letter-spacing:.04em;padding:3px 9px;background:var(--navy-line);color:var(--navy-fg)}
+.board[data-level="calm"] .lv{background:var(--calm);color:var(--on-lv)}
+.board[data-level="watch"] .lv{background:var(--watch);color:#1a1200}
+.board[data-level="action"] .lv{background:var(--act);color:var(--on-lv)}
+.verdict{font-family:var(--f-display);font-weight:900;font-size:clamp(32px,9.5vw,44px);line-height:1.15;margin:8px 0 0;letter-spacing:-.02em;text-wrap:balance}
+.detail{margin:0;font-size:14.5px;color:var(--navy-muted)}
+.board-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin:0;border-top:1px solid var(--navy-line)}
+.board-grid div{padding:12px 18px;border-left:1px solid var(--navy-line);min-width:0}
+.board-grid div:first-child{border-left:0}
+.board-grid dt{font-size:11px;color:var(--navy-muted)}
+.board-grid dd{margin:2px 0 0;font-family:var(--f-mono);font-size:20px;font-weight:700;font-variant-numeric:tabular-nums}
+.board-meter{padding:12px 18px 16px;border-top:1px solid var(--navy-line);display:flex;flex-direction:column;gap:6px}
+.meter{display:grid;grid-template-columns:repeat(3,1fr);gap:3px}
+.meter div{height:5px;background:var(--navy-line)}
+.meter div.on.c{background:var(--calm)} .meter div.on.w{background:var(--watch)} .meter div.on.a{background:var(--act)}
+.meter-l{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;font-size:11px;color:var(--navy-muted)}
+.meter-l span:nth-child(2){text-align:center} .meter-l span:nth-child(3){text-align:right}
+@media (max-width:420px){.board-grid div{padding:10px 12px}.board-grid dd{font-size:17px}}
+
+/* news */
+.news{list-style:none;margin:0;padding:0}
+.news li{padding:16px 0;border-top:1px solid var(--line);min-width:0}
+.news li:first-child{border-top:0}
+.news .src{font-family:var(--f-mono);font-size:10.5px;font-weight:700;letter-spacing:.1em;color:var(--accent);text-transform:uppercase}
+.news h3{font-size:17px;font-weight:800;margin:3px 0 4px;line-height:1.45;letter-spacing:-.01em;text-wrap:balance}
+.news .orig{font-size:12.5px;color:var(--muted);margin:0 0 6px;font-style:italic;word-break:break-word}
+.news p{margin:0 0 6px}
+.news a{font-size:13px;color:var(--link);font-weight:700;text-decoration:none}
+.news a::after{content:" →"}
+.news .empty{color:var(--muted)}
+
+/* roster */
+.roster{display:flex;flex-direction:column}
+.row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 14px;padding:14px 0;border-top:1px solid var(--line);align-items:start}
+.row:first-child{border-top:0}
+.row .who b{font-size:16px;font-weight:800;display:block}
+.row .who span{font-size:13px;color:var(--muted)}
+.row .num{text-align:right}
+.row .num b{font-family:var(--f-mono);font-size:22px;font-weight:700;font-variant-numeric:tabular-nums;display:block;line-height:1.2}
+.row .num small{font-size:12px;color:var(--muted)}
+.row .note{grid-column:1/-1;font-size:13px;color:var(--muted);margin:4px 0 0}
+.row .note a{color:var(--link)}
+.chip{display:inline-block;font-size:11px;font-weight:800;padding:1px 6px;margin-top:4px;border:1px solid currentColor}
+.chip.calm{color:var(--calm)} .chip.watch{color:var(--watch)} .chip.action{color:var(--act)}
+.total{display:flex;justify-content:space-between;align-items:baseline;padding:12px 0 0;border-top:2px solid var(--rule);font-weight:800}
+.total b{font-family:var(--f-mono);font-size:20px;font-variant-numeric:tabular-nums}
+
+/* history */
+.hist{display:flex;gap:6px;overflow-x:auto;padding:8px 0 4px}
+.hist button{flex:0 0 auto;cursor:pointer;border:1px solid var(--line);background:var(--bg);color:var(--fg);padding:8px 12px;font:inherit;font-size:13px;display:flex;flex-direction:column;align-items:flex-start;gap:4px}
+.hist button[aria-current="true"]{border-color:var(--rule);box-shadow:inset 0 0 0 1px var(--rule)}
+.hist button:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+.hist .d{font-family:var(--f-mono);font-size:12px}
+
+/* preparedness */
+.prep{display:flex;flex-direction:column}
+.prep-block{padding:16px 0;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:8px}
+.prep-block:first-child{border-top:0}
+.prep h3{margin:0;font-size:16px;font-weight:800}
+.sirens{margin:0;display:flex;flex-direction:column;gap:12px}
+.sirens dt{font-weight:800;font-size:14.5px;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.sirens dt span{font-family:var(--f-mono);font-size:11px;font-weight:500;color:var(--muted)}
+.sirens dd{margin:2px 0 0;font-size:14px}
+.kit{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 14px;font-size:14px}
+.kit li{padding-left:14px;position:relative}
+.kit li::before{content:"";position:absolute;left:0;top:.62em;width:6px;height:6px;background:var(--rule)}
+.tip{margin:0;font-size:13.5px;color:var(--muted)}
+.out{align-self:flex-start;font-size:13px;font-weight:800;color:var(--link);text-decoration:none}
+.out::after{content:" →"}
+
+.kitpick{margin-top:8px;padding:14px;border:1px solid var(--line);display:flex;flex-direction:column;gap:4px}
+.kp-label{font-family:var(--f-mono);font-size:10.5px;font-weight:700;letter-spacing:.12em;color:var(--muted)}
+.kitpick b{font-size:15px;font-weight:800}
+.kp-note{font-size:13px;color:var(--muted)}
+.kp-btn{align-self:flex-start;margin-top:6px;font-size:13.5px;font-weight:800;padding:9px 14px;background:var(--fg);color:var(--bg);text-decoration:none}
+.kp-btn[aria-disabled="true"]{background:var(--soft);color:var(--muted);cursor:default}
+.disclose{font-size:11.5px;color:var(--muted);margin-top:6px}
+.monthly{grid-column:1/-1;display:flex;flex-direction:column;gap:2px;padding:12px 14px;border:2px solid var(--rule)}
+.monthly b{font-family:var(--f-display);font-weight:900;font-size:17px}
+.monthly span{font-size:13.5px;color:var(--muted)}
+
+.donors{margin-top:14px;padding-top:12px;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:8px}
+.donors ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px 8px}
+.donors li{font-size:13.5px;font-weight:700;padding:4px 10px;background:var(--soft)}
+.donors li small{font-family:var(--f-mono);font-weight:500;font-size:12px;color:var(--muted)}
+.dsum{all:unset;cursor:pointer;display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap;padding:4px 0}
+.dsum:focus-visible{outline:2px solid var(--link);outline-offset:3px}
+.dsum-t{font-size:15px;font-weight:800}
+.dsum-t b{font-family:var(--f-mono);font-weight:700;font-variant-numeric:tabular-nums}
+.go{font-size:13.5px;font-weight:800;color:var(--link)}
+.dbar{height:4px;background:var(--soft)}
+.dbar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--tg-red),var(--tg-blue));transition:width .4s}
+@media (prefers-reduced-motion:reduce){.dbar i{transition:none}}
+.lead{font-weight:800}
+.plaque{background:var(--navy);color:var(--navy-fg);padding:0 0 22px;text-align:center;display:flex;flex-direction:column;gap:16px}
+.plaque::before{content:"";display:block;height:5px;background:linear-gradient(90deg,var(--tg-red) 0 50%,var(--tg-blue) 50% 100%)}
+.plaque-hd{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;padding:0 18px;font-family:var(--f-mono);font-size:10.5px;letter-spacing:.16em;color:var(--navy-muted)}
+.plaque ul{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 0;padding:6px 18px;border-block:1px solid var(--navy-line);margin:0 18px}
+.plaque li{background:none;padding:6px 16px;font-family:var(--f-display);font-weight:900;font-size:22px;letter-spacing:.12em;color:var(--navy-fg);position:relative}
+.plaque li+li::before{content:"";position:absolute;left:0;top:50%;width:4px;height:4px;margin-top:-2px;background:var(--navy-muted);transform:rotate(45deg)}
+.plaque ul li.first{padding:4px 0;font-family:var(--f-body);font-weight:400;font-size:14px;letter-spacing:0;color:var(--navy-muted)}
+.plaque ul .del{color:var(--navy-muted);font-family:var(--f-body);letter-spacing:0}
+.plaque-ft{margin:0;padding:0 18px;font-family:var(--f-display);font-weight:700;font-size:14px;line-height:1.7;color:var(--navy-muted)}
+.donors li{display:inline-flex;align-items:center;gap:4px}
+.donors .del{font:inherit;font-size:11px;border:0;background:none;color:var(--muted);cursor:pointer;padding:0 0 0 4px}
+.admin{margin-top:8px;padding:12px;border:1px dashed var(--line);display:flex;flex-direction:column;gap:8px}
+.admin-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px}
+.admin input{font:inherit;font-size:14px;padding:9px 10px;border:1px solid var(--line);background:var(--bg);color:var(--fg);min-width:0}
+.admin button{font:inherit;font-weight:800;font-size:14px;padding:9px 14px;border:0;background:var(--rule);color:var(--bg);cursor:pointer}
+.admin input:focus-visible,.admin button:focus-visible{outline:2px solid var(--link);outline-offset:1px}
+.donors li.first{font-weight:400;background:none;padding:0;color:var(--muted)}
+
+/* support */
+.give{padding-top:10px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;align-items:center}
+.give p{grid-column:1/-1;margin:0;font-size:14.5px}
+.acct{display:flex;flex-direction:column;gap:2px;padding:12px 14px;background:var(--soft)}
+.acct .bank{font-size:12px;color:var(--muted)}
+.acct .no{font-family:var(--f-mono);font-size:17px;font-weight:700;font-variant-numeric:tabular-nums;user-select:all}
+.give button{font:inherit;font-weight:800;font-size:14px;padding:12px 16px;border:0;background:var(--rule);color:var(--bg);cursor:pointer}
+.give button:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+.paynote{font-size:13px;color:var(--muted);margin:8px 0 0;min-height:1.2em}
+
+/* links */
+.links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line);border-left:1px solid var(--line);margin-top:8px}
+.links a{display:block;padding:11px 12px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);color:var(--fg);text-decoration:none;font-size:13.5px;font-weight:700}
+.links a span{display:block;font-size:11px;color:var(--muted);font-weight:400;font-family:var(--f-mono)}
+.links a:hover,.links a:focus-visible{background:var(--soft);outline:none}
+
+.motto{display:block;margin-top:14px;padding-top:10px;border-top:3px solid;border-image:linear-gradient(90deg,var(--tg-red) 0 50%,var(--tg-blue) 50% 100%) 1;color:var(--fg);font-family:var(--f-display);font-size:16px;font-weight:900}
+.foot{font-size:12px;color:var(--muted);margin:0;line-height:1.75}
+@media (max-width:480px){.links{grid-template-columns:repeat(2,minmax(0,1fr))}}
+</style>
+</head>
+<body>
+
+
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <svg class="flag" viewBox="-36 -24 72 48" role="img" aria-label="대한민국 국기">
+        <rect fill="#fff" x="-36" y="-24" width="72" height="48"/>
+        <g transform="rotate(-56.3099324740202)">
+          <g id="kr-b2"><path id="kr-b" d="M-6-25H6M-6-22H6M-6-19H6" stroke="#000" stroke-width="2"/><use href="#kr-b" y="44"/></g>
+          <path stroke="#fff" stroke-width="1" d="M0,17v10"/>
+          <circle fill="#cd2e3a" r="12"/>
+          <path fill="#0047a0" d="M0-12A6,6 0 0 0 0,0A6,6 0 0 1 0,12A12,12 0 0,1 0-12Z"/>
+        </g>
+        <g transform="rotate(-123.6900675259798)">
+          <use href="#kr-b2"/>
+          <path stroke="#fff" stroke-width="1" d="M0-23.5v3M0,17v3.5M0,23.5v3"/>
+        </g>
+      </svg>
+      <h1>주한 외국군 철수 경보</h1>
+    </div>
+    <span class="stamp" id="stamp"><span class="beacon" aria-hidden="true"></span><span id="stampText">불러오는 중…</span></span>
+  </header>
+
+  <p class="intro">대한민국 땅에 주둔한 외국 군대의 변화를, 매일 아침 사실로 확인합니다.</p>
+
+  <section class="notice" aria-label="공지사항">
+    <div class="hd"><i>공지</i>알아두세요</div>
+    <ul id="notices">
+      <li><span class="d">매일</span><span><b>아침 8시 41분 자동 업데이트</b> · 미국·한국 뉴스와 나라별 군인 수를 매일 새로 확인해요.</span></li>
+    </ul>
+  </section>
+
+  <section class="board" id="alert" data-level="">
+    <div class="board-hd"><span>상황판정 · SITUATION REPORT</span><span id="boardTime">—</span></div>
+    <div class="board-main">
+      <span class="lv" id="lv">판정 대기</span>
+      <p class="verdict" id="verdict">판정 불러오는 중</p>
+      <p class="detail" id="detail"></p>
+    </div>
+    <dl class="board-grid">
+      <div><dt>주한미군 병력</dt><dd id="bTroops">—</dd></div>
+      <div><dt>미 의회 하한선</dt><dd>28,500</dd></div>
+      <div><dt>금일 검토 보도</dt><dd id="bCount">—</dd></div>
+    </dl>
+    <div class="board-meter">
+      <div class="meter" aria-hidden="true"><div class="c" data-k="calm"></div><div class="w" data-k="watch"></div><div class="a" data-k="action"></div></div>
+      <div class="meter-l"><span>1 · 변화 없음</span><span>2 · 주목</span><span>3 · 철수 발표</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>미국 언론은 지금 <small>한국어로 번역했어요</small></h2>
+    <ul class="news" id="us"><li class="empty">미국 언론 보도가 여기에 번역되어 올라옵니다.</li></ul>
+  </section>
+
+  <section>
+    <h2>우리나라에 있는 외국 군인 <small id="forcesStamp"></small></h2>
+    <div class="roster" id="roster"><div class="row"><div class="who"><span>병력 정보를 불러오는 중입니다.</span></div></div></div>
+  </section>
+
+  <section>
+    <h2>한국 뉴스·정부 발표</h2>
+    <ul class="news" id="kr"><li class="empty">국내 보도가 여기에 올라옵니다.</li></ul>
+  </section>
+
+  <section>
+    <h2>지난 기록 <small>날짜를 누르면 그날 내용이 보여요</small></h2>
+    <div class="hist" id="hist"></div>
+  </section>
+
+  <section>
+    <h2>비상시 대비 안내 <small>정부 공식 안내 기준</small></h2>
+    <div class="prep">
+      <div class="prep-block">
+        <h3>민방위 경보가 울리면</h3>
+        <dl class="sirens">
+          <div><dt>경계경보<span>사이렌 1분 · 평탄음</span></dt><dd>공격이 예상될 때예요. 방송을 듣고 가스와 전기를 끈 뒤, 대피소로 갈 준비를 해요.</dd></div>
+          <div><dt>공습경보<span>사이렌 3분 · 파상음</span></dt><dd>공격이 임박했거나 진행 중일 때예요. 가까운 대피소나 지하시설로 바로 대피해요. 운전 중이면 길 오른쪽에 차를 세우고 대피해요.</dd></div>
+          <div><dt>경보해제<span>방송 · 확성기 안내</span></dt><dd>위험이 지나갔을 때예요. 안내 방송에 따라 행동해요.</dd></div>
+        </dl>
+      </div>
+      <div class="prep-block">
+        <h3>미리 챙겨 두면 좋은 것</h3>
+        <ul class="kit">
+          <li>식수와 보관 쉬운 식량</li><li>휴대용 라디오</li><li>손전등과 여분 건전지</li><li>상비약과 붕대·반창고</li><li>마스크</li><li>배낭 하나</li>
+        </ul>
+        <p class="tip">유통기한을 가끔 확인해서 바꿔 주세요.</p>
+        <div class="kitpick">
+          <span class="kp-label">한 번에 준비하기</span>
+          <b>아이템픽 19종 생존가방 키트</b>
+          <span class="kp-note">배낭에 구급용품·라디오·우비·로프·호루라기 등이 들어 있는 도구 위주 구성이에요. 물과 식량은 따로 챙겨 주세요.</span>
+          <a class="kp-btn" id="kitHref" href="#" target="_blank" rel="noopener sponsored" aria-disabled="true">쿠팡에서 보기</a>
+          <span class="disclose">이 링크는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</span>
+        </div>
+      </div>
+      <div class="prep-block">
+        <h3>가까운 대피소 찾기</h3>
+        <p class="tip">‘안전디딤돌’ 앱이나 국민재난안전포털에서 집과 회사 근처 대피소를 미리 확인해 두세요. 지하철역과 큰 건물 지하주차장이 대피소로 지정된 경우가 많아요.</p>
+        <a class="out" href="https://www.safekorea.go.kr/" target="_blank" rel="noopener">국민재난안전포털 열기</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>후원 🙇 <small>금액은 자유예요</small></h2>
+    <div class="give">
+      <p><b class="lead">매일 아침의 정리를 지켜 주세요.</b> 매일 아침 미국·한국 언론과 양국 정부 발표를 찾아 읽고, 영어 기사를 번역하고, 나라별 군인 수를 확인해요. 하루도 빠지지 않고 이어가려면 꾸준한 비용과 시간이 들어요.</p>
+      <div class="acct">
+        <span class="bank">카카오뱅크 · 예금주 김대훈</span>
+        <span class="no" id="acctNo">3333-04-6560254</span>
+      </div>
+      <button type="button" id="buyOnce">계좌번호 복사</button>
+    </div>
+    <p class="paynote" id="paynote" role="status"></p>
+    <div class="donors">
+      <button type="button" class="dsum" id="dToggle" aria-expanded="false" aria-controls="plaque">
+        <span class="dsum-t">오늘 함께 지켜 주신 분들 <b id="dCount">(0/100)</b></span>
+        <span class="go" id="dGo">보러가기 →</span>
+      </button>
+      <div class="dbar" aria-hidden="true"><i id="dBar"></i></div>
+      <div class="plaque" id="plaque" hidden>
+        <div class="plaque-hd"><span>감사 명단 · ROLL OF HONOR</span><span id="plaqueDate"></span></div>
+        <ul id="donorList"><li class="first">첫 후원자가 되어 주세요. 후원해 주시면 이름을 가려 이곳에 감사히 올려요.</li></ul>
+        <p class="plaque-ft">대한민국을 생각하는 마음으로<br>매일 아침의 기록을 함께 지켜 주셨습니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>직접 확인하기</h2>
+    <div class="links">
+      <a href="https://news.google.com/search?q=USFK%20troop%20reduction&hl=en-US&gl=US&ceid=US:en" target="_blank" rel="noopener">미국 보도<span>Google News</span></a>
+      <a href="https://www.stripes.com/theaters/asia_pacific/" target="_blank" rel="noopener">성조지<span>Stars and Stripes</span></a>
+      <a href="https://www.usfk.mil" target="_blank" rel="noopener">주한미군사령부<span>USFK</span></a>
+      <a href="https://search.naver.com/search.naver?where=news&sort=1&query=%EC%A3%BC%ED%95%9C%EB%AF%B8%EA%B5%B0+%EA%B0%90%EC%B6%95" target="_blank" rel="noopener">네이버 뉴스<span>최신순</span></a>
+      <a href="https://www.mnd.go.kr" target="_blank" rel="noopener">국방부<span>대한민국</span></a>
+      <a href="https://www.unc.mil" target="_blank" rel="noopener">유엔군사령부<span>UNC</span></a>
+    </div>
+  </section>
+
+  <p class="foot">매일 오전 8시 41분(한국 시간)에 미국·한국 언론과 양국 정부 발표를 확인해 자동 갱신됩니다. 병력 이동은 군사 기밀이라 실시간으로 공개되지 않으며, 이 페이지는 공식 발표와 언론 보도를 근거로 판정합니다. ‘철수 발표’는 공식 발표가 있을 때만 표시합니다. 미국 언론 기사는 원문을 요약·번역한 것으로, 정확한 내용은 원문 링크에서 확인하세요.<br><strong class="motto">우리의 안보는 정확한 정보에서 시작됩니다.</strong></p>
+</div>
+
+<script>
+(function(){
+  /* 결제 링크: 토스페이먼츠·카카오페이 등에서 받은 결제 링크(https)를 넣으면 버튼이 그 페이지로 연결됩니다. */
+  const PAY_LINKS = { once: "" /* 후원 링크 */, month: "" /* 월 5,000원 구독 링크 */ };
+  /* 쿠팡 파트너스 링크: 받은 링크(https://link.coupang.com/...)를 아래 따옴표 안에 넣으면 버튼이 연결돼요. */
+  const KIT_LINK = "https://link.coupang.com/a/in4YZLjh80";
+  (function(){ const a=document.getElementById("kitHref");
+    if(/^https:\/\//.test(KIT_LINK)){ a.href=KIT_LINK; a.removeAttribute("aria-disabled"); }
+    else { a.textContent="링크 연결 전 (예시)"; a.removeAttribute("href"); }
+  })();
+
+  const LV={calm:"변화 없음",watch:"주목",action:"철수 발표"};
+  const LVN={calm:"1단계 · 변화 없음",watch:"2단계 · 주목",action:"3단계 · 철수 발표"};
+  /* verdict: 간결한 판정(명사형), detail: 근거 한 줄 */
+  const $=id=>document.getElementById(id);
+  let reports=[], forces=[], selected=null;
+  const fmt=d=>d?d.replace(/-/g,"."):"";
+  const safeUrl=u=>typeof u==="string"&&/^https:\/\//.test(u);
+
+  function newsList(el, arr, emptyText, showOrig){
+    el.textContent="";
+    if(!arr||!arr.length){ const li=document.createElement("li"); li.className="empty"; li.textContent=emptyText; el.appendChild(li); return; }
+    arr.forEach(it=>{
+      const li=document.createElement("li");
+      if(it.source){ const s=document.createElement("span"); s.className="src"; s.textContent=it.source; li.appendChild(s); }
+      const h=document.createElement("h3"); h.textContent=it.title||""; li.appendChild(h);
+      if(showOrig&&it.origTitle){ const o=document.createElement("p"); o.className="orig"; o.textContent=it.origTitle; li.appendChild(o); }
+      if(it.summary){ const p=document.createElement("p"); p.textContent=it.summary; li.appendChild(p); }
+      if(safeUrl(it.url)){ const a=document.createElement("a"); a.href=it.url; a.target="_blank"; a.rel="noopener"; a.textContent="원문 보기"; li.appendChild(a); }
+      el.appendChild(li);
+    });
+  }
+
+  function renderReport(){
+    const r=reports.find(x=>x.id===selected)||reports[0];
+    if(!r) return;
+    $("alert").dataset.level=r.level||"";
+    $("lv").textContent=LVN[r.level]||"판정 대기";
+    $("verdict").textContent=r.verdict||LV[r.level]||"";
+    $("detail").textContent=r.detail||"";
+    $("boardTime").textContent=fmt(r.date)+(r.checkedAt?" "+r.checkedAt:"")+" KST";
+    $("bTroops").textContent=typeof r.troops==="number"?r.troops.toLocaleString("en-US"):"—";
+    $("bCount").textContent=((r.usMedia||[]).length+(r.items||[]).length)+"건";
+    document.querySelectorAll(".meter div").forEach(d=>{
+      const order=["calm","watch","action"]; d.classList.toggle("on", order.indexOf(d.dataset.k)<=order.indexOf(r.level));
+    });
+    $("stampText").textContent="갱신 "+fmt(r.date)+(r.checkedAt?" "+r.checkedAt:"");
+    newsList($("us"), r.usMedia, "이날 새로운 미국 언론 보도는 없었습니다.", true);
+    newsList($("kr"), r.items, "이날 새로운 국내 보도는 없었습니다.", false);
+    const h=$("hist"); h.textContent="";
+    reports.slice(0,30).forEach(x=>{
+      const b=document.createElement("button"); b.type="button";
+      b.setAttribute("aria-current", x.id===r.id?"true":"false");
+      const d=document.createElement("span"); d.className="d"; d.textContent=fmt(x.date);
+      const c=document.createElement("span"); c.className="chip "+(x.level||""); c.textContent=LV[x.level]||"-";
+      b.append(d,c); b.onclick=()=>{selected=x.id; renderReport(); window.scrollTo({top:0,behavior:"smooth"});};
+      h.appendChild(b);
+    });
+  }
+
+  function renderForces(){
+    const box=$("roster"); box.textContent="";
+    if(!forces.length){ const d=document.createElement("div"); d.className="row"; d.textContent="병력 정보가 아직 없습니다."; box.appendChild(d); return; }
+    let total=0, latest="";
+    forces.forEach(f=>{
+      if(typeof f.troops==="number") total+=f.troops;
+      if(f.updatedAt&&f.updatedAt>latest) latest=f.updatedAt;
+      const row=document.createElement("div"); row.className="row";
+      const who=document.createElement("div"); who.className="who";
+      const b=document.createElement("b"); b.textContent=f.country||""; who.appendChild(b);
+      const s=document.createElement("span"); s.textContent=f.unit||""; who.appendChild(s);
+      const num=document.createElement("div"); num.className="num";
+      const n=document.createElement("b"); n.textContent=typeof f.troops==="number"?f.troops.toLocaleString("en-US"):"—"; num.appendChild(n);
+      const sm=document.createElement("small"); sm.textContent=f.troopsLabel||"명"; num.appendChild(sm);
+      const c=document.createElement("span"); c.className="chip "+(f.status||""); c.textContent=LV[f.status]||"-"; num.appendChild(document.createElement("br")); num.appendChild(c);
+      row.append(who,num);
+      if(f.note||safeUrl(f.url)){
+        const p=document.createElement("p"); p.className="note"; p.textContent=(f.note||"")+" ";
+        if(safeUrl(f.url)){ const a=document.createElement("a"); a.href=f.url; a.target="_blank"; a.rel="noopener"; a.textContent="출처"; p.appendChild(a); }
+        row.appendChild(p);
+      }
+      box.appendChild(row);
+    });
+    const t=document.createElement("div"); t.className="total";
+    const l=document.createElement("span"); l.textContent="확인된 외국군 합계";
+    const v=document.createElement("b"); v.textContent=total.toLocaleString("en-US")+"명";
+    t.append(l,v); box.appendChild(t);
+    $("forcesStamp").textContent=latest?"기준 "+fmt(latest):"";
+  }
+
+  function pay(kind){
+    const url=PAY_LINKS[kind];
+    if(url&&safeUrl(url)){ const a=document.createElement("a"); a.href=url; a.target="_blank"; a.rel="noopener"; document.body.appendChild(a); a.click(); a.remove(); return; }
+    $("paynote").textContent="구독과 후원은 곧 열려요. 조금만 기다려 주세요.";
+  }
+  $("buyOnce").onclick=async()=>{
+    const num="3333046560254";
+    try{ await navigator.clipboard.writeText(num); $("paynote").textContent="계좌번호를 복사했어요. 함께해 주셔서 고마워요!"; }
+    catch(e){ const r=document.createRange(); r.selectNodeContents($("acctNo")); const s=getSelection(); s.removeAllRanges(); s.addRange(r); $("paynote").textContent="계좌번호를 길게 눌러 복사해 주세요."; }
+  };
+
+  const DONOR_GOAL=100;
+  const todayKST=()=>new Date(Date.now()+9*3600e3).toISOString().slice(0,10);
+  $("plaqueDate").textContent=todayKST().replace(/-/g,".");
+  $("dToggle").onclick=()=>{ const pl=$("plaque"); pl.hidden=!pl.hidden; $("dToggle").setAttribute("aria-expanded",String(!pl.hidden)); $("dGo").textContent=pl.hidden?"보러가기 →":"접기 ↑"; };
+  function renderNotices(list){
+    if(!list||!list.length) return;
+    const ul=$("notices"); ul.textContent="";
+    list.slice().sort((a,b)=>(a.order??0)-(b.order??0)).slice(0,6).forEach(n=>{ const li=document.createElement("li");
+      const s=document.createElement("span"); s.className="d"; s.textContent=n.tag||fmt(n.date).slice(5);
+      const t=document.createElement("span"); const b=document.createElement("b"); b.textContent=n.title||""; t.appendChild(b);
+      if(n.body) t.appendChild(document.createTextNode(" · "+n.body));
+      li.append(s,t); ul.appendChild(li); });
+  }
+  function renderDonors(donors){
+    donors=(donors||[]).slice().sort((a,b)=>(b.order||0)-(a.order||0));
+    const n=donors.filter(d=>d.date===todayKST()).length;
+    $("dCount").textContent="("+n+"/"+DONOR_GOAL+")";
+    $("dBar").style.width=Math.min(100,n/DONOR_GOAL*100)+"%";
+    const ul=$("donorList"); ul.textContent="";
+    if(!donors.length){ const li=document.createElement("li"); li.className="first"; li.textContent="첫 후원자가 되어 주세요. 후원해 주시면 이름을 가려 이곳에 감사히 올려요."; ul.appendChild(li); return; }
+    donors.forEach(d=>{ if(!d.name) return; const li=document.createElement("li"); li.textContent=d.name; ul.appendChild(li); });
+  }
+  async function start(){
+    try{
+      const res=await fetch("data.json?t="+Date.now(),{cache:"no-store"});
+      if(!res.ok) throw new Error(res.status);
+      const data=await res.json();
+      reports=(data.reports||[]).slice().sort((a,b)=>a.date<b.date?1:-1).map(r=>Object.assign({id:r.id||r.date},r));
+      forces=(data.forces||[]).slice().sort((a,b)=>(a.order||0)-(b.order||0));
+      if(reports.length) renderReport(); else $("verdict").textContent="첫 판정을 기다리는 중";
+      renderForces(); renderNotices(data.notices); renderDonors(data.donors);
+    }catch(e){
+      $("stampText").textContent="불러오지 못함"; $("verdict").textContent="잠시 뒤 새로고침해 주세요";
+    }
+  }
+  start();
+})();
+</script>
+
+</body>
+</html>

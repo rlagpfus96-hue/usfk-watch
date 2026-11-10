@@ -1,0 +1,234 @@
+{
+ "updatedAt": "2026-11-08",
+ "reports": [
+  {
+   "checkedAt": "08:42",
+   "date": "2026-11-08",
+   "detail": "새 감축 보도 없음 · 한미 간 공식 논의 없음 · 미 의회 감축 제한 유지",
+   "items": [],
+   "level": "calm",
+   "troops": 28500,
+   "usMedia": [
+    {
+     "origTitle": "South Korean audit reveals friction in US alliance as Washington's priorities shift",
+     "source": "Reuters",
+     "summary": "한국 내부 감사에서 한미 간 의견 차이가 확인됐다고 전했어요. 주한미군은 2만8,500명으로 북한 억제에 집중한다는 미국 입장을 소개했고, 감축 발표는 없었어요. (11월 5일)",
+     "title": "한국 감사에서 드러난 한미동맹 마찰, 미국의 우선순위 변화 속",
+     "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/05/south-korean-audit-reveals-friction-in-us-alliance-as-washington-s-priorities-shift"
+    }
+   ],
+   "verdict": "철수 결정 없음",
+   "id": "2026-11-08"
+  },
+  {
+   "checkedAt": "08:41",
+   "date": "2026-11-07",
+   "detail": "최근 48시간 새 감축 보도 없음 · 한미 간 공식 논의 없음 · 미 의회 감축 제한 유지",
+   "items": [
+    {
+     "source": "뉴시스",
+     "summary": "한미연합군사령부가 평택 캠프 험프리스에서 창설 48주년 기념식을 열고 연합 방위태세를 강조했어요. 병력 감축 관련 발표는 없었어요. (11월 6일)",
+     "title": "한미연합사 창설 48주년 기념식 열려",
+     "url": "https://newsis.com/view/NISX20261106_0003858409"
+    }
+   ],
+   "level": "calm",
+   "troops": 28500,
+   "usMedia": [],
+   "verdict": "철수 결정 없음",
+   "id": "2026-11-07"
+  },
+  {
+   "checkedAt": "08:41",
+   "date": "2026-11-06",
+   "detail": "최근 48시간 새 감축 보도 없음 · 한미 간 공식 논의 없음 · 미 의회 감축 제한 유지",
+   "items": [
+    {
+     "source": "아시아투데이",
+     "summary": "민주당이 의회 다수가 되면서 주한미군 감축 시도를 의회가 견제할 수 있다는 미국 전문가 전망을 전했어요. 미 정부의 감축 발표는 없었어요. (11월 5일)",
+     "title": "미 중간선거 뒤 의회, 주한미군 감축 견제 전망",
+     "url": "https://asiatoday.co.kr/kn/view.php?key=20261105010002015"
+    }
+   ],
+   "level": "calm",
+   "troops": 28500,
+   "usMedia": [],
+   "verdict": "철수 결정 없음",
+   "id": "2026-11-06"
+  },
+  {
+   "checkedAt": "08:41",
+   "date": "2026-11-05",
+   "detail": "최근 48시간 새 감축 보도 없음 · 한미 간 공식 논의 없음 · 미 의회 감축 제한 유지",
+   "items": [],
+   "level": "calm",
+   "troops": 28500,
+   "usMedia": [],
+   "verdict": "철수 결정 없음",
+   "id": "2026-11-05"
+  },
+  {
+   "checkedAt": "08:41",
+   "date": "2026-11-04",
+   "detail": "감축 관련 보도 지속 · 한미 간 공식 논의 없음 · 미 의회 감축 제한 유지",
+   "items": [
+    {
+     "source": "연합뉴스(다음)",
+     "summary": "국방부·청와대는 한미 간 주한미군 감축이나 철수 논의가 전혀 없다는 입장을 밝혔습니다.",
+     "title": "한국 정부: 감축·철수 논의 없음",
+     "url": "https://v.daum.net/v/20260503143619611"
+    },
+    {
+     "source": "코리아중앙데일리",
+     "summary": "2026 회계연도 NDAA는 국방장관이 안보 이익과 동맹 협의를 의회에 보고하지 않으면 병력 감축에 예산을 쓸 수 없게 했습니다. 보고 후 60일이 지나면 제한이 풀립니다.",
+     "title": "미 국방수권법, 2만8,500명 아래 감축 제한",
+     "url": "https://www.koreajoongangdaily.com/korea/us-house-passes-defense-bill-to-maintain-usfk-numbers-above-28500-troops/12392263"
+    },
+    {
+     "source": "파이낸셜뉴스",
+     "summary": "미 국방부는 병력 태세 조정 가능성에 대해 확인도 부인도 하지 않았습니다.",
+     "title": "미 국방부, 감축 여부 '노코멘트'",
+     "url": "https://en.fnnews.com/news/202605010523563792"
+    },
+    {
+     "source": "Korea Pro",
+     "summary": "헤그세스 국방장관이 독일 주둔 미군 5,000명 철수를 지시하면서 주한미군에도 영향이 있을지 관심이 커졌습니다.",
+     "title": "독일 주둔 미군 5,000명 철수 지시",
+     "url": "https://koreapro.org/?p=2214009"
+    }
+   ],
+   "level": "watch",
+   "troops": 28500,
+   "usMedia": [
+    {
+     "origTitle": "US Army reportedly plans to move multidomain troops from Germany to South Korea",
+     "source": "Stars and Stripes",
+     "summary": "수백 명 규모 부대를 올해 안에 주한미군에 합류시킨다는 한국 언론 보도를 전했어요. 미 국방부는 발표할 내용이 없다고 했어요. 철수가 아니라 오히려 증원 쪽 소식이에요. (9월 3일)",
+     "title": "미 육군, 독일의 다영역효과대대를 한국으로 옮길 계획이라는 보도",
+     "url": "https://www.stripes.com/branches/army/2026-09-03/army-multidomain-effects-battalion-korea-22738642.html"
+    },
+    {
+     "origTitle": "In South Korea, America’s biggest overseas military base faces an uncertain future",
+     "source": "Washington Times",
+     "summary": "평택 캠프 험프리스 등 주한미군 기지의 미래를 다룬 기사예요. 감축 결정이 났다는 내용은 아니에요. (10월 28일)",
+     "title": "미국 최대 해외기지인 한국 기지, 앞날이 불투명하다",
+     "url": "https://washingtontimes.com/news/2026/oct/28/south-korea-americas-biggest-overseas-military-base-faces-uncertain"
+    },
+    {
+     "origTitle": "House version of NDAA further limits US troop reductions in South Korea",
+     "source": "Stars and Stripes",
+     "summary": "2027 회계연도 하원 법안에 주한미군을 2만8,500명 아래로 줄이는 데 예산을 못 쓰게 하는 조항이 들어갔어요. 상원과 합쳐야 최종 확정돼요. (7월 28일)",
+     "title": "미 하원 국방수권법안, 주한미군 감축을 더 강하게 제한",
+     "url": "https://www.stripes.com/theaters/asia_pacific/2026-07-28/usfk-congress-house-ndaa-south-korea-22386400.html"
+    }
+   ],
+   "verdict": "철수 결정 없음",
+   "id": "2026-11-04"
+  }
+ ],
+ "forces": [
+  {
+   "country": "미국",
+   "note": "감축 보도는 계속 나오지만 결정된 건 없어요. 미 의회가 2만8,500명 아래 감축을 법으로 막고 있어요.",
+   "order": 1,
+   "status": "watch",
+   "troops": 28500,
+   "troopsLabel": "명 · 공식",
+   "unit": "주한미군 (USFK)",
+   "updatedAt": "2026-11-08",
+   "url": "https://www.koreajoongangdaily.com/korea/us-house-passes-defense-bill-with-stronger-language-on-maintaining-troops-in-korea/12787511",
+   "id": "us"
+  },
+  {
+   "country": "뉴질랜드",
+   "note": "유엔사 본부 6명, 군사정전위원회 6명이 근무해요.",
+   "order": 2,
+   "status": "calm",
+   "troops": 12,
+   "troopsLabel": "명",
+   "unit": "유엔군사령부·군사정전위원회",
+   "updatedAt": "2026-11-08",
+   "url": "https://nzdf.mil.nz/nzdf/new-operation/un-military-armistice-commission",
+   "id": "nz"
+  },
+  {
+   "country": "스위스",
+   "note": "정전협정을 감시하는 중립국 대표단이에요.",
+   "order": 3,
+   "status": "calm",
+   "troops": 5,
+   "troopsLabel": "명",
+   "unit": "중립국감독위원회 (판문점)",
+   "updatedAt": "2026-11-08",
+   "url": "https://en.wikipedia.org/wiki/Neutral_Nations_Supervisory_Commission",
+   "id": "ch"
+  },
+  {
+   "country": "스웨덴",
+   "note": "정전협정을 감시하는 중립국 대표단이에요.",
+   "order": 4,
+   "status": "calm",
+   "troops": 5,
+   "troopsLabel": "명",
+   "unit": "중립국감독위원회 (판문점)",
+   "updatedAt": "2026-11-08",
+   "url": "https://en.wikipedia.org/wiki/Neutral_Nations_Supervisory_Commission",
+   "id": "se"
+  },
+  {
+   "country": "기타 유엔사 참여국",
+   "note": "참모와 연락장교 위주로 근무해요. 나라별 인원은 대부분 공개되지 않아요.",
+   "order": 5,
+   "status": "calm",
+   "troops": null,
+   "troopsLabel": "소수 · 수치 비공개",
+   "unit": "호주·영국·캐나다·프랑스 등",
+   "updatedAt": "2026-11-08",
+   "url": "https://www.unc.mil/History/Post-1953-Evolution-of-UNC",
+   "id": "unc-others"
+  }
+ ],
+ "notices": [
+  {
+   "body": "미국·한국 뉴스와 나라별 군인 수를 매일 점검해요.",
+   "date": "2026-11-04",
+   "order": 1,
+   "tag": "매일",
+   "title": "아침 8시 41분에 새로 확인해요",
+   "id": "n1"
+  },
+  {
+   "body": "미국 법상 감축 전에 의회 보고와 60일이 필요하고, 실제 이동에는 몇 달 이상 걸려요.",
+   "date": "2026-11-04",
+   "order": 2,
+   "tag": "참고",
+   "title": "철수는 미리 알 수 있어요",
+   "id": "n4"
+  },
+  {
+   "body": "긴급한 상황에서는 재난문자와 정부 발표를 먼저 확인하세요. 대피소는 ‘안전디딘돌’ 앱에서 찾을 수 있어요.",
+   "date": "2026-11-04",
+   "order": 3,
+   "tag": "참고",
+   "title": "공식 발표가 가장 정확해요",
+   "id": "n5"
+  },
+  {
+   "body": "보도나 추측만으로는 단계를 올리지 않아요.",
+   "date": "2026-11-04",
+   "order": 4,
+   "tag": "기준",
+   "title": "공식 발표가 있을 때만 3단계로 올려요",
+   "id": "n2"
+  },
+  {
+   "body": "원문 링크를 함께 달아 두니 직접 확인할 수 있어요.",
+   "date": "2026-11-04",
+   "order": 5,
+   "tag": "번역",
+   "title": "미국 언론 기사도 한국어로 정리해요",
+   "id": "n3"
+  }
+ ],
+ "donors": []
+}
