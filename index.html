@@ -201,6 +201,9 @@ h2 small{font-family:var(--f-mono);font-weight:500;font-size:11px;color:var(--mu
 .links a:hover,.links a:focus-visible{background:var(--soft);outline:none}
 
 .motto{display:block;margin-top:14px;padding-top:10px;border-top:3px solid;border-image:linear-gradient(90deg,var(--tg-red) 0 50%,var(--tg-blue) 50% 100%) 1;color:var(--fg);font-family:var(--f-display);font-size:16px;font-weight:900}
+.admin-link{margin:-18px 0 0;text-align:right}
+.admin-link a{font-family:var(--f-mono);font-size:11px;color:var(--muted);text-decoration:none;opacity:.7}
+.admin-link a:hover{opacity:1;text-decoration:underline}
 .foot{font-size:12px;color:var(--muted);margin:0;line-height:1.75}
 @media (max-width:480px){.links{grid-template-columns:repeat(2,minmax(0,1fr))}}
 </style>
@@ -299,12 +302,12 @@ h2 small{font-family:var(--f-mono);font-weight:500;font-size:11px;color:var(--mu
             <div class="kp-item">
               <b>참치캔</b>
               <span class="kp-note">비상식량 국룰이에요. 따기만 하면 한 끼라 불 없어도 괜찮고, 유통기한이 길어서 찬장에 넣어두고 잊어도 돼요.</span>
-              <a class="kp-btn" href="https://link.coupang.com/a/iyPGGXsKVo" target="_blank" rel="noopener sponsored">쿠팡에서 보기</a>
+              <a class="kp-btn" href="https://link.coupang.com/a/iyPGGXsKVo" data-track="쿠팡 · 참치캔" target="_blank" rel="noopener sponsored">쿠팡에서 보기</a>
             </div>
             <div class="kp-item">
               <b>생존배낭</b>
               <span class="kp-note">현관에 하나 걸어두면 마음이 좀 편해져요. 받으면 안에 뭐 들었는지 한 번은 열어보고, 물이랑 상비약은 따로 채워 주세요.</span>
-              <a class="kp-btn" href="https://link.coupang.com/a/iyPLJ9f7TM" target="_blank" rel="noopener sponsored">쿠팡에서 보기</a>
+              <a class="kp-btn" href="https://link.coupang.com/a/iyPLJ9f7TM" data-track="쿠팡 · 생존배낭" target="_blank" rel="noopener sponsored">쿠팡에서 보기</a>
             </div>
           </div>
           <span class="disclose">이 링크는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</span>
@@ -313,7 +316,7 @@ h2 small{font-family:var(--f-mono);font-weight:500;font-size:11px;color:var(--mu
       <div class="prep-block">
         <h3>가까운 대피소 찾기</h3>
         <p class="tip">‘안전디딤돌’ 앱이나 국민재난안전포털에서 집과 회사 근처 대피소를 미리 확인해 두세요. 지하철역과 큰 건물 지하주차장이 대피소로 지정된 경우가 많아요.</p>
-        <a class="out" href="https://www.safekorea.go.kr/" target="_blank" rel="noopener">국민재난안전포털 열기</a>
+        <a class="out" data-track="재난안전포털" href="https://www.safekorea.go.kr/" target="_blank" rel="noopener">국민재난안전포털 열기</a>
       </div>
     </div>
   </section>
@@ -326,11 +329,11 @@ h2 small{font-family:var(--f-mono);font-weight:500;font-size:11px;color:var(--mu
         <span class="bank">카카오뱅크 · 예금주 김대훈</span>
         <span class="no" id="acctNo">3333-04-6560254</span>
       </div>
-      <button type="button" id="buyOnce">계좌번호 복사</button>
+      <button type="button" id="buyOnce" data-track="후원 계좌 복사">계좌번호 복사</button>
     </div>
     <p class="paynote" id="paynote" role="status"></p>
     <div class="donors">
-      <button type="button" class="dsum" id="dToggle" aria-expanded="false" aria-controls="plaque">
+      <button type="button" class="dsum" id="dToggle" data-track="후원자 명단 열기" aria-expanded="false" aria-controls="plaque">
         <span class="dsum-t">오늘 함께 지켜 주신 분들 <b id="dCount">(0/100)</b></span>
         <span class="go" id="dGo">보러가기 →</span>
       </button>
@@ -356,6 +359,7 @@ h2 small{font-family:var(--f-mono);font-weight:500;font-size:11px;color:var(--mu
   </section>
 
   <p class="foot">매일 오전 8시 41분(한국 시간)에 미국·한국 언론과 양국 정부 발표를 확인해 자동 갱신됩니다. 병력 이동은 군사 기밀이라 실시간으로 공개되지 않으며, 이 페이지는 공식 발표와 언론 보도를 근거로 판정합니다. ‘철수 발표’는 공식 발표가 있을 때만 표시합니다. 미국 언론 기사는 원문을 요약·번역한 것으로, 정확한 내용은 원문 링크에서 확인하세요.<br>본 사이트는 정부·군과 무관한 민간 정보 사이트입니다.<br><strong class="motto">우리의 안보는 정확한 정보에서 시작됩니다.</strong></p>
+  <p class="admin-link"><a href="/admin.html" rel="nofollow">관리자</a></p>
 </div>
 
 <script>
@@ -494,5 +498,16 @@ h2 small{font-family:var(--f-mono);font-weight:500;font-size:11px;color:var(--mu
 })();
 </script>
 
+
+<script>
+(function(){
+  function send(o){ try{ const b=JSON.stringify(o);
+    if(navigator.sendBeacon){ navigator.sendBeacon("/api/track", new Blob([b],{type:"application/json"})); }
+    else { fetch("/api/track",{method:"POST",body:b,keepalive:true,headers:{"content-type":"application/json"}}); } }catch(e){} }
+  const q=new URLSearchParams(location.search);
+  send({type:"view", ref:document.referrer||"", utm:q.get("utm_source")||q.get("from")||""});
+  document.addEventListener("click",function(e){ const el=e.target.closest("[data-track]"); if(el) send({type:"click", name:el.dataset.track}); },true);
+})();
+</script>
 </body>
 </html>
