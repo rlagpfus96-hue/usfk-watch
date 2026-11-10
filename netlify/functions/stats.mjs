@@ -26,8 +26,9 @@ async function buildDay(store, day) {
 }
 
 export default async (req) => {
-  const pw = process.env.ADMIN_PASSWORD;
-  const auth = (req.headers.get("authorization") || "").replace(/^Bearer\s+/i, "");
+  const norm = (x) => decodeURIComponent(x || "").normalize("NFC").trim();
+  const pw = norm(process.env.ADMIN_PASSWORD);
+  const auth = norm((req.headers.get("authorization") || "").replace(/^Bearer\s+/i, ""));
   if (!pw) return Response.json({ error: "no_password" }, { status: 503 });
   if (auth !== pw) {
     await new Promise(r => setTimeout(r, 600));
